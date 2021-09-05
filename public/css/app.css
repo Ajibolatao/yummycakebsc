@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&amp;display=swap);
+.logo[data-v-d74f7d92] {
+    max-width: 100%;
+    max-height: 150px
+}
+
+.claim[data-v-d74f7d92] {
+    margin-top: 2rem;
+    width: 100%
+}
+
+.address-input[data-v-d74f7d92] {
+    margin-top: 2rem;
+    background: #6CDAE2
+}
+
+.address-input input[data-v-d74f7d92] {
+    margin-top: 2px;
+    border: 0;
+    background-color:rgba(0, 0, 0, 0.0);
+    border-radius: 50px;
+}
+
+.address-input button[data-v-d74f7d92] {
+    background-color: #6CDAE2 !important;
+    border: 0;
+        border-radius: 50px
+
+}
+
+.metamask-icon[data-v-d74f7d92] {
+    width: 25px;
+    padding: 2px;
+    margin: 2px
+}
+
+.metamask-icon.not-active[data-v-d74f7d92] {
+    filter: grayscale(100%)
+}
+
+cite[data-v-3d81ed13] {
+    font-size: smaller;
+    font-weight: lighter
+}
+
+.footer {
+    margin-top: 3rem;
+    visibility: hidden
+}
+
+.footer img {
+    margin-top: 10px;
+    max-width: 150px;
+    visibility: hidden
+}
+
+.footer img:hover {
+    transform: scale(1.1)
+}
+
+.total-reward {
+    color: #000
+}
+
+.total-reward img {
+    width: 50px;
+    margin: 5px
+}
+
+.inu-card {
+    text-align: center;
+    padding: 2rem .7rem;
+    border-radius: 50px;
+    position: relative;
+    color: #000;
+}
+
+.cards {
+    padding-top: 4rem
+
+}
+
+.inu-card {
+    margin-bottom: 2rem;
+    background-color: #6CDAE2
+
+}
+
+.inu-card img {
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px
+}
+
+.inu-card p,
+.total-reward p {
+    margin: 0
+}
+
+.inu-card p.title,
+.total-reward p.title {
+    font-weight: bolder;
+    font-style: italic
+}
+
+.card-body {
+    padding: .7rem
+}
+
+h1[data-v-23a69892] {
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 3em
+}
+
+img[data-v-23a69892] {
+    width: 100%
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+body {
+    background: #EDF5FF;
+    font-family: Montserrat, sans-serif !important
+}

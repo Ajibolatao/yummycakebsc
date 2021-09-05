@@ -1,0 +1,9 @@
+export async function checkMaintenance() {
+    let maintenance = await fetch('/maintenance')
+        .catch(error => {
+            console.warn(error)
+        })
+    maintenance = await maintenance.json();
+    console.debug("MAINTENANCE ACTIVE", maintenance.active);
+    return maintenance.active
+}

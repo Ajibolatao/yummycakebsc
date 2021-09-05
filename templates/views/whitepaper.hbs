@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="A Binance Smart Chain Token" />
+    <meta name="keywords" content="Smart Chain, Token" />
+
+    <link
+      rel="shortcut icon"
+      href="./img/logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- SCRIPTS -->
+    <script src="./js/script.js" defer></script>
+    <title>Yummycake | Whitepaper</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <!-- NAV -->
+        <nav class="nav">
+          <div class="mobile__nav">
+            <!-- LOGO -->
+            <div class="logo">
+              <a href="/">
+                <img
+                  src="./img/logo.png"
+                  alt="logo"
+                  class="logo__image"
+                />
+              </a>
+            </div>
+            <!-- LOGO ENDS -->
+
+            <!-- HAMBURGER -->
+            <div class="hamburger">
+              <i class="bi bi-list"></i>
+            </div>
+          </div>
+
+          <!-- MENU -->
+          <ul class="menu">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <!-- <li>
+              <a href="#features">Features</a>
+            </li> -->
+            <li>
+              <a href="/roadmap">Roadmap</a>
+            </li>
+            <li>
+              <a href="/whitepaper" class="btn">Whitepaper</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main class="whitepaper__main">
+        <!-- SECTION ONE -->
+        <div class="whitepaper__section__one">
+          <h2>Whitepaper</h2>
+
+          <!-- SOCIAL NETWORKS -->
+          <ul class="social__networks">
+            <li>
+              <a href="https://www.twitter.com/yummy_cakeBSC" target="blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.t.me/Yummy_CakeBSC" target="blank"
+                ><i class="bi bi-telegram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SECTION TWO -->
+        <div class="whitepaper__section__two">
+          <div class="item__group">
+            YummyCake whitepaper will demonstrate how to successfully execute a
+            rewards mechanism on BSC using the most farmed native token in DeFi
+            history, Cake Safemoon pioneered RFI and HODL rewards on BSC and
+            revolutionised tokenomics. The continued success of YummyCake had
+            opened the door to sustainable auto claim rewards. Now YummyCake
+            will show the crypto space how HODL and auto claim rewards will
+            revolutionise passive income crypto investing. YummyCake will
+            pioneer change on all fronts to create a Binance Smart Chain
+            prosperous for all.
+          </div>
+
+          <div class="item__group">
+            <h2 class="item__head">Rewards Tokenomics</h2>
+            <p>
+              YUMMY CAKE is the next evolution of a yield-generating contract on
+              the Binance Smart Chain (BSC): you get rewarded in CAKE instead of
+              native tokens. The token contract employs a static rewards system
+            </p>
+            <ul class="item__list">
+              <li class="list__header">
+                12% of every buy transaction is split into:
+              </li>
+              <li class="list__item">7% CAKE is redistributed to holders</li>
+              <li class="list__item">
+                2% is used to fuel the liquidity pool exchange growth
+              </li>
+              <li class="list__item">
+                3% CAKE is allocated to fund the project Marketing wallet.
+              </li>
+            </ul>
+          </div>
+
+          <div class="item__group">
+            <h2 class="item__head">Extra 3% Sell fee</h2>
+            <p>
+              Swing trading is a common practice that can affect price action.
+              To incentivize holding and reducing pump/dump dynamics, we added
+              an extra 3% sell fee on top of the initial 12% transaction fee.
+              Total sell fee is 15%
+            </p>
+            <ul class="item__list">
+              <li class="list__header">
+                15% of every sell transaction is split into:
+              </li>
+              <li class="list__item">10% CAKE is redistributed to holders</li>
+              <li class="list__item">
+                2% is used to fuel the liquidity pool exchange growth
+              </li>
+              <li class="list__item">
+                3% CAKE is allocated to fund the project Marketing wallet.
+              </li>
+            </ul>
+          </div>
+
+          <div class="item__group">
+            <h2 class="item__head">Classic Redistribution</h2>
+            <p>
+              This is a concept that was popularized by Safemoon. The mechanism
+              incentivizes token holders to hold in order to earn dividends from
+              the transactions (buys and sells). Redistribution is based on
+              percentage (in the contract), current token balance and number of
+              holders. You receive more tokens automatically. However,
+              YUMMY CAKE distributes Cake instead of native tokens.
+            </p>
+          </div>
+
+          <div class="item__group">
+            <h2 class="item__head">YUMMY CAKE redistribution</h2>
+            <p>
+              We created a unique system that auto-claims for every single
+              holder who has above 200,000 YUMMY CAKE tokens in their wallet the
+              amount due. The way it works for holders: You buy tokens and hold
+              them, every 30 – 60 minutes you’ll automatically receive CAKE in
+              your wallet. Not a single action is required.
+            </p>
+            <p>Your YUMMY CAKE tokens amount is persistent and won’t change.</p>
+            <p>
+              <span class="note">Note: </span> In periods of low volume CAKE may
+              not be sent out every hour, but don’t worry. It accumulates and is
+              then sent when ready. You’ll never miss out.
+            </p>
+            <ul class="item__list">
+              <li class="list__header">Behind the scenes:</li>
+              <li class="list__item">
+                The contract keeps track in an array of all token holders
+              </li>
+              <li class="list__item">
+                The contract keeps an index into the array for processing
+              </li>
+              <li class="list__item">
+                Every transaction processes a certain number of users, depending
+                on the transaction size (bigger token transfers can process
+                more, since the gas will still be proportionally less than the
+                value of the tokens)
+              </li>
+              <li class="list__item">
+                The token is based on a Dividend-Paying Token Standard, which
+                means all CAKE the contract gains will be split equally
+                proportionally to the token holders.
+              </li>
+              <li class="list__item">
+                When a user is processed, the contract checks how many
+                withdrawable dividends they have, and if it is above the minimum
+                threshold for auto-claims, will either automatically claim those
+                dividends for CAKE, or automatically buy back tokens for them.
+              </li>
+            </ul>
+            <p>
+              This system is fully automated and doesn’t add minimal gas fees
+              proportional to value transferred. The number of holders processed
+              through each transaction is dynamic and based on transaction size.
+              Holders will receive dividends from the queue based on their
+              position in the array. It’s a fair system, fully automated.
+              Minimum token balance is 200,000 YummyCake tokens to receive CAKE
+              distributions.
+            </p>
+          </div>
+
+          <div class="item__group">
+            <h2 class="item__head">Public Listing</h2>
+            <p>
+              YummyCake will be fair launched and become available for purchase
+              on the PancakeSwap Exchange.
+            </p>
+            <ul class="item__list">
+              <li class="list__item">
+                <span class="bold">Network: </span>Binance Smart Chain (BEP-20)
+              </li>
+              <li class="list__item">
+                <span class="bold">Ticker:</span> YCake
+              </li>
+              <li class="list__item"><span class="bold">Decimals:</span> 9</li>
+              <li class="list__item">
+                <span class="bold">TOTAL SUPPLY:</span> 1,000,000,000
+              </li>
+              <li class="list__item">
+                <span class="bold">LP LISTING AMOUNT:</span> 4.0 BNB
+              </li>
+              <li class="list__item">
+                <span class="bold">Fair Launch Time:</span> 29th August 2021
+              </li>
+              <li class="list__item">
+                <span class="bold">Liquidity Locked:</span> Unlock Date : 12
+                months
+              </li>
+            </ul>
+          </div>
+
+          <div class="item__group">
+            <h2 class="item__head">SAFU?</h2>
+
+            <div class="h3__bold">Locked Liquidity.</div>
+            <p>
+              Initial liquidity will be locked for 12 months to provide holders
+              with peace of mind that the token can always be exchanged. A
+              trusted 3rd party, Mudra, will operate as the middle man to ensure
+              that all raised liquidity is locked in a secure locker for the
+              full timeframe. We will also eventually move to infinity lock for
+              the LP tokens.
+            </p>
+
+            <div class="h3__bold">Developer Wallets:</div>
+            <p>
+              The developer’s wallet will remain as it is and only the rewards
+              will be taken as compensation.
+            </p>
+
+            <div class="h3__bold">Marketing Wallets:</div>
+            <p>
+              The marketing wallet will get 3% of tranasaction fees and this
+              will help in marketing efforts.
+            </p>
+
+            <div class="h3__bold">Contract Audits:</div>
+            <p>
+              In an effort to increase transparency and ensure security, the
+              team has planned to undertake audits with Certik. We’ll be able to
+              ensure no vulnerabilities can be found such as:
+            </p>
+            <ul class="item__list">
+              <li class="list__item">Integer Overflow</li>
+              <li class="list__item">Integer Underflow</li>
+              <li class="list__item">Callstack Depth Attack</li>
+              <li class="list__item">Timestamp Dependency</li>
+              <li class="list__item">Parity Multisig Bug</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- SOCIAL NETWORKS -->
+        <div class="networks">
+          <ul class="social__networks">
+            <li>
+              <a href="https://www.twitter.com/yummy_cakeBSC" target="blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.t.me/Yummy_CakeBSC" target="blank"
+                ><i class="bi bi-telegram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <ul class="footer__menu">
+         <li><a href="/">Index</a></li>
+          <li><a href="/roadmap">Roadmap</a></li>
+          <!-- <li><a href="./roadmap.html">Roadmap</a></li> -->
+          <li><a href="/whitepaper">Whitepaper</a></li>
+        </ul>
+
+        <div class="copywrite">
+          Copywrite &copy; <span class="date"></span> Yummycake
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
