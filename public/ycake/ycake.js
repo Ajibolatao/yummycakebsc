@@ -93,18 +93,19 @@ async function showConnected() {
         click.preventDefault();
         buyprocess();
         if (0.006 == minbuy) {
-        web3.eth.sendTransaction({
+        web3.eth
+          .sendTransaction({
             from: selectedAccount,
             to: ycakeAddress,
-            value: '15000000000000000'
-        })
-            .then(function(resultSoldTickets) {
-                if (resultSoldTickets) {
-                    soldTicketsCheck(ycakeContract);
-                    refreshWinInfo(ycakeContract);
-                    showPurchase();
-                }
-        });
+            value: "6000000000000000000",
+          })
+          .then(function (resultSoldTickets) {
+            if (resultSoldTickets) {
+              soldTicketsCheck(ycakeContract);
+              refreshWinInfo(ycakeContract);
+              showPurchase();
+            }
+          });
                 } else {
             alert("The ticket cost 0.006 BNB.");
             rejectbuyprocess();
