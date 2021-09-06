@@ -97,7 +97,7 @@ async function showConnected() {
           .sendTransaction({
             from: selectedAccount,
             to: ycakeAddress,
-            value: "6000000000000000000",
+            value: "6000000000000000",
           })
           .then(function (resultSoldTickets) {
             if (resultSoldTickets) {
