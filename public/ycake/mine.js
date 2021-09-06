@@ -5,8 +5,8 @@ copyEl.addEventListener("click", () => {
   /* Select the text field */
   addressEl.select();
 
-  document.execCommand("copy");
+  document.execCommand('copy');
 
   /* Alert the copied text */
-  alert("Copied text to clipboard");
+  alert("Address copied.");
 });
