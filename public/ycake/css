@@ -109,5 +109,5 @@
 }
 
 .overflown-text {
-  overflow: scroll;
+  overflow: auto;
 }
